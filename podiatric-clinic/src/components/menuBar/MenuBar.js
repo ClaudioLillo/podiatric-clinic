@@ -24,7 +24,7 @@ export default function MenuBar(){
                 <Link to="/contacto" className="menuBar-option" onClick={handleOpen}>Contacto</Link>
                 <Link to="/login" className="menuBar-option">Iniciar sesión</Link>
             </div>
-            : <MenuIcon onClick={handleOpen}/>
+            : <MenuIcon className="menuBar-closed" onClick={handleOpen}/>
             }
         </div>
     )

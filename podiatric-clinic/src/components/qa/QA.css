@@ -1,5 +1,21 @@
 .qa{
-    position: absolute;
-    top: 55px;
+    width: 100%;
     left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.qa-card{
+    border: 1px solid rgba(0,0,0,0.4);
+    padding: 40px;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+}
+
+.qa-card h1{
+    font-size: 1.3em;
+    color: #406882;
+    
 }

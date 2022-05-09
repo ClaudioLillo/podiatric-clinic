@@ -1,22 +1,26 @@
 .contact{
-    position: absolute;
-    top: 55px;
-    left: 0px;
-    border: 2px solid rgba(0,0,0,0.6);
-    padding: 20px;
-    margin-top: 5vw;
-    margin-left: 5vw;
-    width: 90vw;
+    display: flex;
+    justify-content: center;
+}
+.contact-card{
+    margin: 20px;
+    border: 1px solid #406882;
+    padding: 20px 40px 20px 40px;
     border-radius: 5px;
+    background: #6998AB;
+    box-shadow: 0 0 25px #1A374D;
 }
 
 .contact h1{
     font-size: 1.5em;
-    color: rgba(0,0,0,0.6);
+    color: white;
+    text-align: center;
 }
 
 .contact h2{
     font-size: 1em;
+    text-align:center;
+    font-weight: 600;
 }
 
 .contact-item{

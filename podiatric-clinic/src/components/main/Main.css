@@ -1,8 +1,25 @@
 .main{
-    width: 70%;
-    border-right: 1px solid black;
-    height: 400px;
-    position: absolute;
-    top: 60px;
-    border: 1px solid red;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.main-text{
+    font-size: 1.2em;
+    text-align: left;
+}
+.main li{
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.main ul{
+    margin-left: 0px;
+    text-align: left;
+}
+
+.main-image{
+    max-width: 200px;
+    border-radius: 20px;
 }

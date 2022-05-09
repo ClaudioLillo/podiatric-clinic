@@ -1,6 +1,7 @@
 .menuBar{
     background: black;
     width: 75vw;
+    max-width: 400px;
     height: 100vh;
     color: white;
     position: fixed;
@@ -14,10 +15,17 @@
     display: flex;
     flex-direction: column;
     font-size: 1.3em;
+    box-shadow: 0 0 25px #1A374D;
 }
 
 .white-icon{
     color: white;
+    animation-name: close;
+}
+
+.white-icon:hover{
+    color: #B1D0E0;
+    cursor: pointer;
     animation-name: close;
 }
 
@@ -26,6 +34,14 @@
     padding-left: 30px;
     text-align: left;
     padding-bottom: 20px;
+}
+
+.menuBar-closed{
+    color: #B1D0E0;
+}
+
+.menuBar-closed:hover{
+    cursor: pointer;
 }
 
 @keyframes open {
