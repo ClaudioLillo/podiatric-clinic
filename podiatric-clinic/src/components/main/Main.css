@@ -2,4 +2,7 @@
     width: 70%;
     border-right: 1px solid black;
     height: 400px;
+    position: absolute;
+    top: 60px;
+    border: 1px solid red;
 }

@@ -1,4 +1,5 @@
 .adminPanel{
+    position: absolute;
     background: black;
     color: white;
     height: 600px;

@@ -1,0 +1,51 @@
+.menuBar{
+    background: black;
+    width: 75vw;
+    height: 100vh;
+    color: white;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: 2s;
+    animation-name: open;
+    animation-duration: 1s;
+    z-index: 1;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3em;
+}
+
+.white-icon{
+    color: white;
+    animation-name: close;
+}
+
+.menuBar-option{
+    width: 100%;
+    padding-left: 30px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+@keyframes open {
+    from {
+        background-color: grey;
+        right: -75vw;
+    }
+    to {
+        background-color: black;
+        right: 0;
+    }
+}
+
+@keyframes close {
+    from {
+        background-color: black;
+        right: 0;
+    }
+    to {
+        background-color: grey;
+        right: -100px;
+    }
+}

@@ -1,0 +1,31 @@
+.contact{
+    position: absolute;
+    top: 55px;
+    left: 0px;
+    border: 2px solid rgba(0,0,0,0.6);
+    padding: 20px;
+    margin-top: 5vw;
+    margin-left: 5vw;
+    width: 90vw;
+    border-radius: 5px;
+}
+
+.contact h1{
+    font-size: 1.5em;
+    color: rgba(0,0,0,0.6);
+}
+
+.contact h2{
+    font-size: 1em;
+}
+
+.contact-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contact-item a{
+    text-decoration: none;
+    color: black;
+}
