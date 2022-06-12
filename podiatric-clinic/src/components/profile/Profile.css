@@ -1,0 +1,31 @@
+.profile{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.profile-card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 10px;
+    
+    overflow: hidden;
+    margin: auto;
+    margin: 30px 20px 30px 20px;
+}
+
+.profile-card-header{
+    background: rgba(0,20,100, 0.3);
+    text-align: center;
+    font-size: 0.7em;
+    color: #1A374D;
+}
+
+.profile-card-body{
+    padding: 20px;
+}
+
+.degree{
+    font-weight: 600;
+}
